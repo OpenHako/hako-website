@@ -54,7 +54,7 @@ const {
       </a>
       <div class="flex items-center md:hidden">
         {showToggleTheme && <ToggleTheme />}
-        <ToggleMenu />
+        {links.length > 0 && <ToggleMenu />}
       </div>
     </div>
     <nav
